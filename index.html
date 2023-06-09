@@ -18,21 +18,105 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
+    <link rel="stylesheet" href="../Workplannerapp/Css/style.css" />
+
+
   </head>
 
   <body>
-    <header class="jumbotron">
+    <div class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
-    </header>
-    <div class="container">
+      <br>
+      <h4> simple calendar app for scheduling your work day</h4>
+      
+      <div class="current-date">
+
+        <p id="currentDay" class="lead display-4"></p>
+      </div>
+    </div>
+   
+
+      <div class="container">
       <!-- Timeblocks go here -->
+      
+      <table class="table table-bordered">
+       
+        <div id="9am" class="row time-div">
+          <div class="col-md-1 hour"><span id="9am">9am</span></div>
+          <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 saveBtn" aria-label="save button 9am">
+           
+          </button>
+        </div>
+        <div id="10am" class="row time-div">
+          <div class="col-md-1 hour"><span id="10">10am</span></div>
+          <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 saveBtn" aria-label="save button 10am">
+            
+          </button>
+        </div>
+        <div id="11am" class="row time-div">
+          <div class="col-md-1 hour"><span id="10">11am</span></div>
+          <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+          <button class="col-md-1 saveBtn" aria-label="save button 11am">
+            
+          </button>
+        </div>
+          <div id="12pm" class="row time-div">
+            <div class="col-md-1 hour"><span id="10">12am</span></div>
+            <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+            <button class="col-md-1 saveBtn" aria-label="save button 12am">
+              
+            </button>
+          </div>
+
+          <div id="1pm" class="row time-div">
+            <div class="col-md-1 hour"><span id="10">1pm</span></div>
+            <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+            <button class="col-md-1 saveBtn" aria-label="save button 1pm">
+              
+            </button>
+          </div>
+
+          <div id="2pm" class="row time-div">
+            <div class="col-md-1 hour"><span id="10">2pm</span></div>
+            <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+            <button class="col-md-1 saveBtn" aria-label="save button 2pm">
+              
+            </button>
+          </div>
+
+          <div id="3pm" class="row time-div">
+            <div class="col-md-1 hour"><span id="10">3pm</span></div>
+            <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+            <button class="col-md-1 saveBtn" aria-label="save button 3pm">
+              
+            </button>
+          </div>
+
+          <div id="4pm" class="row time-div">
+            <div class="col-md-1 hour"><span id="10">4pm</span></div>
+            <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+            <button class="col-md-1 saveBtn" aria-label="save button 4pm">
+              
+            </button>
+          </div>
+
+          <div id="5pm" class="row time-div">
+            <div class="col-md-1 hour"><span id="10">5pm</span></div>
+            <textarea class="col-md-10 time-block description" placeholder="Add schedule item here"></textarea>
+            <button class="col-md-1 saveBtn" aria-label="save button 5pm">
+              
+            </button>
+          </div>
+        
+        
+        </tbody>
+      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="../Workplannerapp/js/logic.js"></script>
   </body>
 </html>
