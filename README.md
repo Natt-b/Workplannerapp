@@ -5,8 +5,12 @@ This is the 7th class challenge in order to create a calendar application that a
 ## Steps taken:
 
 - Created individual folders for HTML, Javascript and CSS to organise code.
-- 
+- Used moment to add current day in console
 
 ## Starter code included:
 - HTML 
 - CSS with styling 
+
+## links
+https://github.com/Natt-b/Workplannerapp.git
+https://natt-b.github.io/Workplannerapp/
