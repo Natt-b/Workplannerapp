@@ -12,5 +12,6 @@ This is the 7th class challenge in order to create a calendar application that a
 - CSS with styling 
 
 ## links
-https://github.com/Natt-b/Workplannerapp.git
-https://natt-b.github.io/Workplannerapp/
+- https://github.com/Natt-b/Workplannerapp.git
+
+- https://natt-b.github.io/Workplannerapp/
